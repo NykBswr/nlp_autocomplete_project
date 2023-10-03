@@ -26,13 +26,13 @@
     .bg-center {
         background: linear-gradient(170deg, #3D3D46 -17.62%, #222228 44.86%);
         width: 72rem;
-        height: 40.26031rem;
+        height: 35.26031rem;
         border-radius: 2.9375rem;
     }
 
     .bg-center2 {
         width: 70.38594rem;
-        height: 39.0735rem;
+        height: 34.0735rem;
         border-radius: 2.9375rem;
         background: rgba(24, 24, 28, 0.20);
     }
@@ -45,22 +45,37 @@
         border-image: linear-gradient(220deg, #F47F7F 0.48%, #320C9C 100%);
         border-image-slice: 1;
     }
+
+    .w-500 {
+        width: 49%;
+    }
+
+    .globe {
+        width: 90%;
+    }
 </style>
 
-<body class="bg-image flex justify-center mt-28 mb-auto">
-    <div class="bg-center rounded-md flex items-center justify-center">
-        <div class="bg-center2 flex items-center justify-center">
-            <div class="mx-auto">
-                <h1 class="border-l-8 pl-3 text-6xl font-bold text-white mb-6 text-start uppercase">
-                    N-gram<br>Autocomplete
-                </h1>
-                <div class="w-full flex items-center text-white text-2xl">
-                    <input type="text" id="prefix" class="bg-box border-b-2 font-sans w-full px-4 py-2 mb-4 rounded-lg focus:outline-none
-                        border-b" placeholder="Enter a word">
-                </div>
-                <div class="w-full flex items-center text-black text-2xl">
-                    <div id="suggestions" class="hidden font-sans bg-gray-100 w-full max-h-96 overflow-y-auto rounded-lg
-                        focus:outline-none">
+<body class="bg-image w-full flex items-center justify-center h-screen">
+    <div class="flex items-center justify-center">
+        <div class="scale-50 lg:scale-100 bg-center rounded-md flex items-center justify-center">
+            <div class="scale-50 lg:scale-100 bg-center2 flex items-center justify-center">
+                <div class="mx-auto flex w-full items-center justify-center">
+                    <div class="w-500 flex items-center justify-center lg:block hidden">
+                        <img class="globe h-auto flex items-center justify-center" src="/static/img/globe.png">
+                    </div>
+                    <div class="scale-50 w-500 flex flex-col justify-center items-center lg:items-start">
+                        <h1 class="border-l-8 pl-3 text-3xl lg:text-6xl font-bold text-white mb-6 text-start uppercase">
+                            N-gram<br>Autocomplete
+                        </h1>
+                        <div class="w-full flex items-center justify-center text-white text-2xl">
+                            <input type="text" id="prefix" class="bg-box border-b-2 font-sans w-full px-4 py-2 mb-4 rounded-lg focus:outline-none
+                            border-b" placeholder="Enter a word">
+                        </div>
+                        <div class="w-full flex items-center justify-center text-black text-2xl">
+                            <div id="suggestions" class="hidden font-sans bg-gray-100 w-full max-h-96 overflow-y-auto rounded-lg
+                            focus:outline-none">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
