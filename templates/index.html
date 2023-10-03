@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700&family=Poppins:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .bg-image {
+        background-image: url(/static/img/bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-center {
+        background: linear-gradient(170deg, #3D3D46 -17.62%, #222228 44.86%);
+        width: 72rem;
+        height: 40.26031rem;
+        border-radius: 2.9375rem;
+    }
+
+    .bg-center2 {
+        width: 70.38594rem;
+        height: 39.0735rem;
+        border-radius: 2.9375rem;
+        background: rgba(24, 24, 28, 0.20);
+    }
+
+    .bg-box {
+        background: transparent;
+    }
+
+    .border-l-8 {
+        border-image: linear-gradient(220deg, #F47F7F 0.48%, #320C9C 100%);
+        border-image-slice: 1;
+    }
+</style>
+
+<body class="bg-image flex justify-center mt-28 mb-auto">
+    <div class="bg-center rounded-md flex items-center justify-center">
+        <div class="bg-center2 flex items-center justify-center">
+            <div class="mx-auto">
+                <h1 class="border-l-8 pl-3 text-6xl font-bold text-white mb-6 text-start uppercase">
+                    N-gram<br>Autocomplete
+                </h1>
+                <div class="w-full flex items-center text-white text-2xl">
+                    <input type="text" id="prefix" class="bg-box border-b-2 font-sans w-full px-4 py-2 mb-4 rounded-lg focus:outline-none
+                        border-b" placeholder="Enter a word">
+                </div>
+                <div class="w-full flex items-center text-black text-2xl">
+                    <div id="suggestions" class="hidden font-sans bg-gray-100 w-full max-h-96 overflow-y-auto rounded-lg
+                        focus:outline-none">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/autocomplete.js"></script>
+</body>
+
+</html>
