@@ -1,6 +1,8 @@
-Natural Langguage Proccesing
+# Natural Langguage Proccesing
 
-Cara jalankan app:
-1. Jalankan env\Scripts\activate pada terminal
-2. Lalu jalankan flask run
-3. Done.
+## Cara jalankan app:
+1. Jalankan perintah ini pada terminal:
+   source env/bin/activate  # Untuk Linux/macOS
+   env\Scripts\activate  # Untuk Windows
+4. Lalu jalankan flask run
+5. Done.
