@@ -1,46 +1,48 @@
-import re
-from collections import defaultdict
-
 import nltk
-nltk.download('punkt')
-from nltk import word_tokenize, PorterStemmer
-from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from collections import Counter
+from data import tokens
+import string
 
-# Load data and preprocess it
-stop_words = set(stopwords.words('english'))
+# Menghitung frekuensi unigram, bigram, dan trigram
+unigram_model = Counter(tokens)
 
-# Improved text preprocessing with stemming
-stemmer = PorterStemmer()
+def count_ngrams(tokens):
+    bigram_model = Counter([(tokens[i], tokens[i+1]) for i in range(len(tokens) - 1)])
+    trigram_model = Counter([(tokens[i], tokens[i+1], tokens[i+2]) for i in range(len(tokens) - 2)])
+    return bigram_model, trigram_model
 
-def preprocess(doc):
-    sents = word_tokenize(doc)
-    sents_tok = []
-    for s in sents:
-        s = s.strip().lower()
-        s = s.replace("\n", " ")
-        s = re.sub(r"[^a-zA-Z0-9 ]", ' ', s)
-        s = re.sub(' +', ' ', s)
-        s = re.sub(r'\s+', ' ', s)
-        # Apply stemming
-        s = stemmer.stem(s)
-        sents_tok.append(s)
-    return " ".join(sents_tok)
+bigram_model, trigram_model = count_ngrams(tokens)
 
-def build_ngram_model(docs, n):
-    ngram_model = defaultdict(list)
-    for doc in docs:
-        tokens = word_tokenize(doc)
-        for i in range(len(tokens) - n + 1):
-            ngram = " ".join(tokens[i:i+n])
-            prefix = " ".join(tokens[i:i+n-1])
-            suffix = tokens[i+n-1]
-            ngram_model[prefix].append(suffix)
-    return ngram_model
+def autocomngram(prefix, unigram_model, bigram_model, trigram_model):
+    # Pra-pemrosesan token
+    vocabulary = set(tokens)
+    tokenized_prefix = word_tokenize(prefix.lower())
+    last_bigram = tuple(tokenized_prefix[-2:])
+    vocabulary_probabilities = {}
 
-def autocomngram(prefix, bigram_model, trigram_model, quadgram_model, pentagram_model):
-    bigram_suggestions = bigram_model.get(prefix, [])
-    trigram_suggestions = trigram_model.get(prefix, [])
-    quadgram_suggestions = quadgram_model.get(prefix, [])
-    pentagram_suggestions = pentagram_model.get(prefix, [])
-    suggestions = bigram_suggestions + trigram_suggestions + quadgram_suggestions + pentagram_suggestions
+    if not prefix.strip():
+        unigram_counter = Counter(unigram_model)
+        punctuation_chars = set(string.punctuation)
+        frequent = [(word, frequency) for word, frequency in unigram_counter.most_common() if word not in punctuation_chars][:5]
+        return frequent 
+
+    elif len(tokenized_prefix) == 1:
+        if last_bigram:
+            last_unigram = last_bigram[0]
+            unigram_count = unigram_model.get(last_unigram, 1)
+            for vocabulary_word in vocabulary:
+                test_bigram = (last_unigram, vocabulary_word)
+                if unigram_count > 0:
+                    probability = bigram_model.get(test_bigram, 0) / unigram_count
+                    vocabulary_probabilities[vocabulary_word] = probability
+    else:
+        for vocabulary_word in vocabulary:
+            test_trigram = (last_bigram[0], last_bigram[1], vocabulary_word)
+            test_bigram = last_bigram
+            if bigram_model[test_bigram] > 0 :
+                probability = trigram_model.get(test_trigram, 0) / bigram_model[test_bigram]
+                vocabulary_probabilities[vocabulary_word] = probability
+
+    suggestions = sorted(vocabulary_probabilities.items(), key=lambda x: x[1], reverse=True)[:5]
     return suggestions

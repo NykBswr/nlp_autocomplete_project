@@ -55,9 +55,25 @@
     .globe {
         width: 85%;
     }
+
+    .maincolor {
+        background: linear-gradient(90deg, #3D3D46 -18.62%, #222228 44.86%);
+    }
+
+    .maincolor2 {
+        background: linear-gradient(90deg, #3D3D46 -18.62%, #222228 44.86%);
+    }
+
+    .seccolor {
+        background: linear-gradient(220deg, #F47F7F 0.48%, #320C9C 100%);
+    }
+
+    .maincolor2:hover {
+        background: linear-gradient(220deg, #F47F7F 0.48%, #320C9C 100%);
+    }
 </style>
 
-<body class="bg-image w-full flex items-center justify-center h-screen">
+<body class="bg-image w-full flex flex-col items-center justify-center h-screen">
     <div class="flex items-center justify-center">
         <div class="scale-50 lg:scale-100 bg-center rounded-md flex items-center justify-center">
             <div class="scale-50 lg:scale-100 bg-center2 flex items-center justify-center">
@@ -86,8 +102,22 @@
             </div>
         </div>
     </div>
-
-    <script src="/static/js/autocomplete.js"></script>
+    <script src="/static/js/autocom.js"></script>
 </body>
+<nav class='w-full overflow-hidden z-50 mt-10'>
+    <div class='mx-auto'>
+        <div class='maincolor w-full h-32 backdrop-blur-2xl rounded-full max-w-3xl mx-auto flex justify-between text-2xl
+            text-white items-center'>
+            <a href="/"
+                class='seccolor mx-auto rounded-full w-56 h-20 flex items-center justify-center text-white font-bold'>
+                N-Gram
+            </a>
+            <a href="/bilstm"
+                class='maincolor2 mx-auto rounded-full w-56 h-20 flex items-center justify-center text-white font-bold'>
+                BILSTM
+            </a>
+        </div>
+    </div>
+</nav>
 
 </html>

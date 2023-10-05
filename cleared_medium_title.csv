@@ -1,0 +1,338 @@
+,Judul
+0,chatbots were the next big thing  what happened   the startup  medium
+1,python for data science  8 concepts you may have forgotten
+2,automated feature engineering in python  towards data science
+3,machine learning  how to go from zero to hero  freecodecamp
+4,reinforcement learning from scratch  insight data
+5,intuitively understanding convolutions for deep learning
+6,an intro to machine learning for designers  ux collective
+7,the big list of dsml interview resources  towards data science
+8,must know information theory concepts in deep learning  ai 
+9,what i learned from interviewing at multiple ai companies and startups
+10,from ballerina to ai researcher  part i  buzzrobot
+11,3 ways to apply latent semantic analysis on largecorpus text on macos terminal  jupyterlab  and 
+12,deep learning is going to teach us all the lesson of our lives  jobs are for machines
+13,machine learning is fun   adam geitgey  medium
+14,machine learning is fun  part 3  deep learning and convolutional neural networks
+15,machine learning is fun  part 4  modern face recognition with deep learning
+16,i interviewed at five top companies in silicon valley in five days  and luckily got five job offers
+17,the mindblowing ai announcement from google that you probably missed 
+18,machine learning is fun  part 2  adam geitgey  medium
+19,every single machine learning course on the internet  ranked by your reviews
+20,artificial intelligence  the revolution hasn  t happened yet
+21,data mining  handling missing values the database  developerzen
+22,interview with google  s alfred spector on voice search  hybrid intelligence and more
+23,lda  
+24,netflix recommendations  beyond the 5 stars  part 1 
+25,netflix recommendations  beyond the 5 stars  part 2 
+26,1000x faster spelling correction algorithm  2012   wolf garbe  medium
+27,formalizing indirect normativity  ai alignment
+28,emotional computing  robbie tilton  medium
+29,system architectures for personalization and recommendation
+30,new to machine learning  avoid these three mistakes
+31,classifying websites with neural networks  knowledge from data  the datafiniti blog
+32,reinventing social sciences in the era of big data  i love experiments  medium
+33,multiindex locality sensitive hashing for fun and profit
+34,color based object segmentation  akash shende  medium
+35,traveling santa problem  an incompetent algorist  s attempt
+36,machine learning is fun   adam geitgey  medium
+37,the current state of machine intelligence  shivon zilis  medium
+38,architecting a machine learning system for risk  airbnb engineering  data science  medium
+39,from word2vec to doc2vec  an approach driven by chinese restaurant process
+40,building a smarter home feed  pinterest engineering  medium
+41,what makes a good data scientistengineer   towards data science
+42,modeling madly  data engineering  medium
+43,explaining the wolfram language  chris jagers  medium
+44,machine learning exercises in python  part 1  john wittenauer  medium
+45,building the interests platform  pinterest engineering  medium
+46,algorithms of the mind  deep learning 101  medium
+47,machine learning in a week  learning new stuff  medium
+48,what to do with  small  data   rants on machine learning  medium
+49,the 7 best data science and machine learning podcasts
+50,tensorflow tutorial part 1  illia polosukhin  medium
+51,the unreasonable effectiveness of random forests  rants on machine learning  medium
+52,6 tricks i learned from the otto kaggle challenge  christophe bourguignat  medium
+53,machine learning     o v e r f i t t e d  medium
+54,generating stories about images  samim  medium
+55,how airbnb uses machine learning to detect host preferences
+56,machine learning is fun  part 3  deep learning and convolutional neural networks
+57,machine learning is fun  part 4  modern face recognition with deep learning
+58,machine learning is fun  part 2  adam geitgey  medium
+59,simple reinforcement learning with tensorflow part 0  qlearning with tables and neural networks
+60,machine learning is fun part 6  how to do speech recognition with deep learning
+61,machine learning is fun part 5  language translation with deep learning and the magic of sequences
+62,deep learning the stock market  tal perry  medium
+63,yes you should understand backprop  andrej karpathy  medium
+64,machine learning in a year  learning new stuff  medium
+65,i interviewed at five top companies in silicon valley in five days  and luckily got five job offers
+66,the mindblowing ai announcement from google that you probably missed 
+67,every single machine learning course on the internet  ranked by your reviews
+68,a beginner  s guide to aiml   machine learning for humans  medium
+69,how hbo  s silicon valley built  not hotdog  with mobile tensorflow  keras  react native
+70,how does spotify know you so well   member feature stories  medium
+71,a brief history of cnns in image segmentation  from rcnn to mask rcnn
+72,software 20  andrej karpathy  medium
+73,a simple deep learning model for stock price prediction using tensorflow
+74,artwork personalization at netflix  netflix techblog  medium
+75,artificial intelligence  the revolution hasn  t happened yet
+76,do algorithms reveal sexual orientation or just expose our stereotypes 
+77,a tour of the top 10 algorithms for machine learning newbies
+78,how to solve 90  of nlp problems  a stepbystep guide
+79,30 amazing machine learning projects for the past year  v2018 
+80,how to build your own alphazero ai using python and keras
+81,the 5 clustering algorithms data scientists need to know
+82,30 amazing python projects for the past year  v2018 
+83,who is going to make money in ai  part i  towards data science
+84,the fall of rnn  lstm  towards data science
+85,gamechanging trends to look out for with ai  wisewolf fund  medium
+86,chatbots were the next big thing  what happened   the startup  medium
+87,artificial intelligence is humanity s rorschach test
+88,reinforcement learning from scratch  insight data
+89,intuitively understanding convolutions for deep learning
+90,an intro to machine learning for designers  ux collective
+91,the big list of dsml interview resources  towards data science
+92,must know information theory concepts in deep learning  ai 
+93,what i learned from interviewing at multiple ai companies and startups
+94,did google duplex just pass the turing test   lance ulanoff  medium
+95,from ballerina to ai researcher  part i  buzzrobot
+96,the complete beginner  s guide to chatbots  chatbots magazine
+97,the mindblowing ai announcement from google that you probably missed 
+98,machine learning is fun  part 2  adam geitgey  medium
+99,every single machine learning course on the internet  ranked by your reviews
+100,artificial intelligence  the revolution hasn  t happened yet
+101,how to build a simple neural network in 9 lines of python code
+102,looking for a ghost in the machine   weird things 
+103,interview with google  s alfred spector on voice search  hybrid intelligence and more
+104,the technical trouble with humanoid robots   weird things 
+105,the evolving role of business analytics  frank diana  medium
+106,formalizing indirect normativity  ai alignment
+107,emotional computing  robbie tilton  medium
+108,becoming a cyborg should be taken gently  of modern biopaleomachines  cyborgology
+109,why you just can  t black box an ai    weird things 
+110,why do we want to build a fully fledged agi    weird things 
+111,new to machine learning  avoid these three mistakes
+112,classifying websites with neural networks  knowledge from data  the datafiniti blog
+113,is there a future for innovation   becoming human  artificial intelligence magazine
+114,i scheduled 1019 meetings in 2012  and that doesn  t count reschedules  xai
+115,website morphing and more revolutions in marketing  arjan haring   medium
+116,using artificial intelligence to balance out customer value
+117,the current state of machine intelligence  shivon zilis  medium
+118,will all musicians become robots   roland trimmel  medium
+119,how artificial intelligence can improve online news
+120,how i tracked my house movements using ibeacons   universal mind  medium
+121,why natural search is awesome and how we got here  the vanguard  medium
+122,using oob tags in aiml  part i  pandorabotsblog  medium
+123,ai is coming  and it will be boring  denny vrandecic  medium
+124,of comets and gods in the making  thaddeus howze  medium
+125,why ai research loves pacman  tommy thompson  medium
+126,how to build a simple neural network in 9 lines of python code
+127,facebook m  the antituring test  arik  s blog
+128,no ui is the new ui  the startup  medium
+129,i let ibm  s robot chef tell me what to cook for a week
+130,selfdriving cars and the trolley problem  tanay jaipuria  medium
+131,how to build a multilayered neural network in python
+132,start automating your business tasks with slack  howdy
+133,digital transformation of business and society  frank diana  medium
+134,how artificial intelligence will make technology disappear
+135,obamarnn  machine generated political speeches   samim  medium
+136,machine learning is fun  part 2  adam geitgey  medium
+137,simple reinforcement learning with tensorflow part 0  qlearning with tables and neural networks
+138,machine learning is fun part 6  how to do speech recognition with deep learning
+139,machine learning is fun part 5  language translation with deep learning and the magic of sequences
+140,eleven reasons to be excited about the future of technology
+141,deep learning the stock market  tal perry  medium
+142,the mindblowing ai announcement from google that you probably missed 
+143,every single machine learning course on the internet  ranked by your reviews
+144,a beginner  s guide to aiml   machine learning for humans  medium
+145,how hbo  s silicon valley built  not hotdog  with mobile tensorflow  keras  react native
+146,how does spotify know you so well   member feature stories  medium
+147,the impossibility of intelligence explosion  francois chollet  medium
+148,understanding hinton  s capsule networks  part i  intuition 
+149,the  1700 great deep learning box  assembly  setup and benchmarks
+150,73 mindblowing implications of a driverless future
+151,do algorithms reveal sexual orientation or just expose our stereotypes 
+152,what worries me about ai  francois chollet  medium
+153,who is going to make money in ai  part i  towards data science
+154,explained simply  how an ai program mastered the ancient game of go
+155,did google duplex just pass the turing test   lance ulanoff  medium
+156,machine learning  how to go from zero to hero  freecodecamp
+157,reinforcement learning from scratch  insight data
+158,intuitively understanding convolutions for deep learning
+159,must know information theory concepts in deep learning  ai 
+160,what i learned from interviewing at multiple ai companies and startups
+161,how to easily automate dronebased monitoring using deep learning
+162,how to build your own neural network from scratch in python
+163,using deep qlearning in fifa 18 to perfect the art of freekicks
+164,why data scientists love gaussian   towards data science
+165,the best words  towards data science
+166,3 ways to apply latent semantic analysis on largecorpus text on macos terminal  jupyterlab  and 
+167,o grupo de estudo em deep learning de brasilia esta planejando o proximo ciclo de encontros do 
+168,beethoven  picasso  and artificial intelligence  towards data science
+169,machine learning is fun  part 3  deep learning and convolutional neural networks
+170,machine learning is fun  part 4  modern face recognition with deep learning
+171,simple reinforcement learning with tensorflow part 0  qlearning with tables and neural networks
+172,a brief history of cnns in image segmentation  from rcnn to mask rcnn
+173,a simple deep learning model for stock price prediction using tensorflow
+174,understanding hinton  s capsule networks  part i  intuition 
+175,the  1700 great deep learning box  assembly  setup and benchmarks
+176,cheat sheets for ai  neural networks  machine learning  deep learning  big data
+177,distributed neural networks with gpus in the aws cloud
+178,gradient descent vs coordinate descent  hacker noon
+179,how to build a multilayered neural network in python
+180,loading a tensorflow graph with the c api  jim fleming  medium
+181,video of a neural network learning  deep learning 101  medium
+182,into the age of context  crossing the pond  medium
+183,the state of artificial intelligence in six visuals
+184,tensorflow tutorial  part 2  illia polosukhin  medium
+185,baidu explains how it  s mastering mandarin with deep learning
+186,comparing artificial artists  kyle mcdonald  medium
+187,highway networks with tensorflow  jim fleming  medium
+188,investing in artificial intelligence  nathan benaich  medium
+189,deep learning the stock market  tal perry  medium
+190,yes you should understand backprop  andrej karpathy  medium
+191,how to build a recurrent neural network in tensorflow  17 
+192,ultimate guide to leveraging nlp  machine learning for your chatbot
+193,simple reinforcement learning with tensorflow part 8  asynchronous actorcritic agents  a3c 
+194,neural networks for algorithmic trading  simple time series forecasting
+195,simple reinforcement learning with tensorflow part 4  deep qnetworks and beyond
+196,a beginner  s guide to aiml   machine learning for humans  medium
+197,how hbo  s silicon valley built  not hotdog  with mobile tensorflow  keras  react native
+198,a brief history of cnns in image segmentation  from rcnn to mask rcnn
+199,a simple deep learning model for stock price prediction using tensorflow
+200,understanding hinton  s capsule networks  part i  intuition 
+201,the  1700 great deep learning box  assembly  setup and benchmarks
+202,cheat sheets for ai  neural networks  machine learning  deep learning  big data
+203,machine learning for humans  part 21  supervised learning
+204,thoughts after taking the deeplearningai courses  towards data science
+205,do algorithms reveal sexual orientation or just expose our stereotypes 
+206,how to build your own alphazero ai using python and keras
+207,explained simply  how an ai program mastered the ancient game of go
+208,the fall of rnn  lstm  towards data science
+209,in defense of skepticism about deep learning  gary marcus  medium
+210,how to learn deep learning in 6 months  towards data science
+211,the 3 tricks that made alphago zero work  hacker noon
+212,how we grew from 0 to 4 million women on our fashion app  with a vertical machine learning approach
+213,how to easily detect objects with deep learning on raspberry pi
+214,how you can train an ai to convert your design mockups into html and css
+215,machine learning  how to go from zero to hero  freecodecamp
+216,what is  q  from a laymen   coinmonks  medium
+217,the beginner  s guide to conversational commerce  the startup  medium
+218,blockchain is not only crappy technology but a bad vision for the future
+219, sneakpeek the savedroid crypto saving app  part  1  your wish
+220,artificial intelligence top 10 articles  june 2018
+221,how to easily detect objects with deep learning on raspberry pi
+222,3 ways to apply latent semantic analysis on largecorpus text on macos terminal  jupyterlab  and 
+223,chatbots  could we talk   aima  ai marketing magazine  medium
+224,blockchain is not only crappy technology but a bad vision for the future
+225,a brief history of cnns in image segmentation  from rcnn to mask rcnn
+226,the  1700 great deep learning box  assembly  setup and benchmarks
+227,are programmers headed toward another bursting bubble 
+228,do algorithms reveal sexual orientation or just expose our stereotypes 
+229,thoughts after taking the deeplearningai courses  towards data science
+230,the rise of the weaponized ai propaganda machine  scout  science fiction  journalism  medium
+231,37 reasons why your neural network is not working  slav
+232,the evolution  a simple illustration  leethree on ux  medium
+233,is there a future for innovation   becoming human  artificial intelligence magazine
+234,de la cooperation entre les hommes et les machines  pour une approche pairapair de l  intelligence 
+235,siri  s descendants  how intelligent assistants will evolve
+236,reflections of  her   ec  mccarthy  medium
+237, her  is our space odyssey   jorge camacho  medium
+238,why ai research loves pacman  tommy thompson  medium
+239,digital companionship  matt wiese  medium
+240,i let ibm  s robot chef tell me what to cook for a week
+241,the wtf economy  from the wtf  economy to the next economy
+242,announcing poncho the weatherbot  renderfrombetaworks
+243,i think i  m slowly turning into a cyborg  becoming human  artificial intelligence magazine
+244,your temporary instant disposable dreamhouse for the weekend
+245,c  plays bejeweled blitz  idanscott  medium
+246,9 reasons why now is the time for artificial intelligence
+247,what could happen if we did things right  an interview with kim stanley robinson  author of aurora
+248,the internet of things and the operating room of the future
+249,everyday ia  louis rosenfeld  medium
+250,continuous online video classification with tensorflow  inception and a raspberry pi
+251,an augmentation based deep neural network approach to learn human driving behavior
+252,a rock album for ai  carlos beltran  medium
+253,continuous video classification with tensorflow  inception and recurrent nets
+254,the future of work  oxford university  medium
+255,the future of digital banking  k2 product design  medium
+256,tensorflow in a nutshell  part three  all the models
+257,how to create a chatbot without coding a single line
+258,how invisible interfaces are going to transform the way we interact with computers
+259,a brief history of cnns in image segmentation  from rcnn to mask rcnn
+260,the  1700 great deep learning box  assembly  setup and benchmarks
+261,are programmers headed toward another bursting bubble 
+262,thoughts after taking the deeplearningai courses  towards data science
+263,the rise of the weaponized ai propaganda machine  scout  science fiction  journalism  medium
+264,37 reasons why your neural network is not working  slav
+265,turn your raspberry pi into homemade google home  becoming human  artificial intelligence magazine
+266,deep learning achievements over the past year  stats and bots
+267,what are the best intelligent chatbots or ai chatbots available online 
+268,the new moats  greylock perspectives
+269,how to easily detect objects with deep learning on raspberry pi
+270,exploring deepfakes  hacker noon
+271,understanding capsule networks  ai  s alluring new architecture
+272,how i launched six side projects in 2017  hacker noon
+273,chatbots were the next big thing  what happened   the startup  medium
+274,the future we wanted  leigh alexander  medium
+275,you can build a neural network in javascript even if you don  t really understand neural networks
+276,coursera vs udacity for machine learning  hacker noon
+277,how to do semantic segmentation using deep learning
+278,how to easily detect objects with deep learning on raspberry pi
+279,data augmentation  how to use deep learning when you have limited data  part 2
+280,humanlike machine hearing with ai  13   towards data science
+281,how to use noise to your advantage   towards data science
+282,deep learning tips and tricks  towards data science
+283,simple reinforcement learning with tensorflow part 0  qlearning with tables and neural networks
+284,activation functions  neural networks  towards data science
+285,principal component analysis network in tensorflow with interactive code
+286,multistream rnn  concat rnn  internal conv rnn  lag 2 rnn in tensorflow
+287,tensorflow dataset api for increasing training speed of neural networks
+288,    hey machine learning
+289,how to use noise to your advantage   towards data science
+290,the complex language used in back propagation  kelvin li  medium
+291,simple reinforcement learning with tensorflow part 0  qlearning with tables and neural networks
+292,cheat sheets for ai  neural networks  machine learning  deep learning  big data
+293,yes you should understand backprop  andrej karpathy  medium
+294,understanding activation functions in neural networks
+295,simple reinforcement learning with tensorflow part 8  asynchronous actorcritic agents  a3c 
+296,romance novels  generated by artificial intelligence
+297,picking a gpu for deep learning  slav
+298,classifying websites with neural networks  knowledge from data  the datafiniti blog
+299,from word2vec to doc2vec  an approach driven by chinese restaurant process
+300,how to build a multilayered neural network in python
+301,everything you need to know about artificial neural networks
+302,how to create a mind  the secret of human thought revealed
+303,taking keras to the zoo  gab41
+304,thanks so much for your response jared  really glad you enjoyed reading it 
+305,craig  using neural networks to learn mario  nikolai savas  medium
+306,why turing  s legacy demands a smarter keyboard  dr ben medlock  medium
+307,semantica desde informacion desestructurada  beeva labs
+308,simple reinforcement learning with tensorflow part 0  qlearning with tables and neural networks
+309,yes you should understand backprop  andrej karpathy  medium
+310,simple reinforcement learning with tensorflow part 8  asynchronous actorcritic agents  a3c 
+311,rohan  lenny  1  neural networks  the backpropagation algorithm  explained
+312,learning how to code neural networks  learning new stuff  medium
+313,understanding lstm and its diagrams  ml review  medium
+314,adventures in narrated reality  artists and machine intelligence  medium
+315,how to build a neuron  exploring ai in javascript pt 1
+316,write an ai to win at pong from scratch with reinforcement learning
+317,traffic sign recognition with tensorflow  waleed abdulla  medium
+318,cheat sheets for ai  neural networks  machine learning  deep learning  big data
+319,understanding activation functions in neural networks
+320,romance novels  generated by artificial intelligence
+321,37 reasons why your neural network is not working  slav
+322,picking a gpu for deep learning  slav
+323,text classification using neural networks  machine learnings
+324,you requested someone with a degree in this   holds up hand 
+325,a guide for time series prediction using recurrent neural networks  lstms 
+326,neural network architectures  towards data science
+327,in defense of skepticism about deep learning  gary marcus  medium
+328,how to easily detect objects with deep learning on raspberry pi
+329,a  weird  introduction to deep learning  towards data science
+330,the new neural internet is coming  hacker noon
+331,stochastic weight averaging  a new way to get state of the art results in deep learning
+332,you can build a neural network in javascript even if you don  t really understand neural networks
+333,artificial intelligence  ai in 2018 and beyond  towards data science
+334,spiking neural networks  the next generation of machine learning
+335,surprise  neurons are now more complex than we thought  
+336, wth does a neural network even learn     a newcomer  s dilemma
