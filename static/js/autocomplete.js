@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        // Send an AJAX request to your Flask app to get autocomplete suggestions
-        fetch('/autocomplete', {
+        // Send an AJAX request to your Flask app to get n-gram suggestions
+        fetch('/autocomngram', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
